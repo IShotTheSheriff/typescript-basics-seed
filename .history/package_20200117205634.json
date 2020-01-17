@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prettier-watch": "onchange 'src/**/*.ts' -- prettier --write {{changed}}"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -26,9 +25,5 @@
   "bugs": {
     "url": "https://github.com/UltimateAngular/typescript-basics-seed/issues"
   },
-  "homepage": "https://github.com/UltimateAngular/typescript-basics-seed#readme",
-  "dependencies": {
-    "onchange": "^6.1.0",
-    "prettier": "^1.19.1"
-  }
+  "homepage": "https://github.com/UltimateAngular/typescript-basics-seed#readme"
 }

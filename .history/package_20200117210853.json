@@ -6,6 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write \"src/**/*.ts\"",
     "prettier-watch": "onchange 'src/**/*.ts' -- prettier --write {{changed}}"
   },
   "repository": {
@@ -19,16 +20,16 @@
     "awesome-typescript-loader": "3.4.1",
     "typescript": "2.6.2",
     "webpack": "3.10.0",
-    "webpack-dev-server": "2.9.7"
+    "webpack-dev-server": "2.9.7",
+    "eslint-config-prettier": "^6.7.0",
+    "prettier": "^1.19.1",
+    "eslint": "^6.5.1",
+    "eslint-plugin-prettier": "^3.1.1"
   },
   "author": "Ultimate Angular",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/UltimateAngular/typescript-basics-seed/issues"
   },
-  "homepage": "https://github.com/UltimateAngular/typescript-basics-seed#readme",
-  "dependencies": {
-    "onchange": "^6.1.0",
-    "prettier": "^1.19.1"
-  }
+  "homepage": "https://github.com/UltimateAngular/typescript-basics-seed#readme"
 }
